@@ -1,0 +1,15 @@
+session
+help
+ifconfig
+autoroute
+session
+autoroute
+exit
+session
+autoroute
+session
+autoroute
+listener_add --addr 0.0.0.0:1234 --tcp --to 127.0.0.1:4443
+session
+ifconfig
+exit
